@@ -46,7 +46,7 @@ img {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 0 80px;
+    padding: 0 15px;
     border-bottom: 2px solid var(--color-base);
 }
 
@@ -203,3 +203,4 @@ img {
 .card-custom:hover .card-custom-image img {
     transform: scale(1.1);
 }
+

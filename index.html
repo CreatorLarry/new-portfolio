@@ -6,6 +6,10 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Larry Portfolio</title>
+    <!-- Lightbox CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" rel="stylesheet"/>
+
+
     <link rel="stylesheet" href="./assets/css/aos.css">
     <link rel="stylesheet" href="./assets/css/line-awesome.min.css">
     <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
@@ -149,17 +153,79 @@
             </div>
 
             <div class="row gy-4">
-                <div class="col-lg-6" data-aos="fade-up">
-                    <div class="card-custom rounded-4 shadow-effect bg-base shadow-effect">
+                <div class="col-lg-6 col-sm-6" data-aos="fade-up">
+                    <div class="card-custom rounded-4 shadow-effect bg-base h-100 d-flex flex-column">
                         <div class="card-custom-image rounded-4">
                             <img class="rounded-4" src="./assets/images/ayd-poster-1.jpg" alt="apple-1">
                         </div>
 
-                        <div class="card-custom-content p-4">
+                        <div class="card-custom-content p-4 d-flex flex-column flex-grow-1">
                             <h5 class="card-custom-title">Welcome To Art Your Dreams</h5>
-                            <p class="card-custom-text">Here at <span>Art Your Dreams, we specialize in creating visually engaging, user-centered designs that elevate brands and connect with audiences.</span>
+                            <p class="card-custom-text flex-grow-1">Here at <span>Art Your Dreams, we specialize in creating visually engaging, user-centered designs that elevate brands and connect with audiences.</span>
                             </p>
-                            <a href="#" class="custom-link">View Project</a>
+                            <a href="./assets/images/ayd-poster-1.jpg" data-lightbox="projects"
+                               data-title="Art Your Dreams Project" class="custom-link">View Project</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 col-sm-6" data-aos="fade-up">
+                    <div class="card-custom rounded-4 shadow-effect bg-base h-100 d-flex flex-column">
+                        <div class="card-custom-image rounded-4">
+                            <img class="rounded-4" src="./assets/images/ayd-poster-2.jpg" alt="apple-1">
+                        </div>
+
+                        <div class="card-custom-content p-4 d-flex flex-column flex-grow-1">
+                            <h5 class="card-custom-title">What I Do</h5>
+                            <p class="card-custom-text flex-grow-1">I am dedicated to crafting designs that are
+                                not just <span>captivating</span> and <span>stricking</span>, but deeply
+                                <span>intuitive</span> and <span>human-focused</span> ensuring a <span>seamless</span>
+                                user experience
+                            </p>
+                            <a href="./assets/images/ayd-poster-2.jpg" data-lightbox="projects"
+                               data-title="Art Your Dreams Project" class="custom-link">View Project</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row pb-4" data-aos="fade-up">
+                <div class="col-lg-4">
+                    <h1>lOGOS</h1>
+                </div>
+            </div>
+
+            <div class="row gy-4">
+                <div class="col-lg-6 col-sm-6" data-aos="fade-up">
+                    <div class="card-custom rounded-4 shadow-effect bg-base shadow-effect h-100 d-flex flex-column">
+                        <div class="card-custom-image rounded-4">
+                            <img class="rounded-4" src="./assets/images/future-her-logo.jpg" alt="apple-1">
+                        </div>
+
+                        <div class="card-custom-content p-4 d-flex flex-column flex-grow-1">
+                            <h5 class="card-custom-title">Welcome To Art Your Dreams</h5>
+                            <p class="card-custom-text flex-grow-1">Here at <span>Art Your Dreams, we specialize in creating visually engaging, user-centered designs that elevate brands and connect with audiences.</span>
+                            </p>
+                            <a href="#" class="custom-link mt-auto">View Project</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 col-sm-6" data-aos="fade-up">
+                    <div class="card-custom rounded-4 shadow-effect bg-base shadow-effect h-100 d-flex flex-column">
+                        <div class="card-custom-image rounded-4">
+                            <img class="rounded-4" src="./assets/images/kihoro-logo.jpg" alt="apple-1">
+                        </div>
+
+                        <div class="card-custom-content p-4 d-flex flex-column flex-grow-1">
+                            <h5 class="card-custom-title">What I Do</h5>
+                            <p class="card-custom-text flex-grow-1">I am dedicated to crafting designs that are
+                                not just <span>captivating</span> and <span>stricking</span>, but deeply
+                                <span>intuitive</span> and <span>human-focused</span> ensuring a <span>seamless</span>
+                                user experience
+                            </p>
+                            <a href="./assets/images/kihoro-logo.jpg" data-lightbox="projects"
+                               data-title="Art Your Dreams Project" class="custom-link">View Project</a>
                         </div>
                     </div>
                 </div>
@@ -171,6 +237,8 @@
 </div>
 <!--end content-->
 
+<!-- Lightbox JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
 <script src="./assets/js/bootstrap.bundle.min.js"></script>
 <script src="./assets/js/aos.js"></script>
 <script src="./assets/js/script.js"></script>
